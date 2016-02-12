@@ -23,4 +23,5 @@ RUN pip install --upgrade --quiet \
 		wheel \
 		setuptools \
 		numpy \
-		scipy
+		scipy \
+		Pillow
