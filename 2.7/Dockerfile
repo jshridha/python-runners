@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:2.7
 
 ENV \
 BASE_APTLIST="build-essential \
