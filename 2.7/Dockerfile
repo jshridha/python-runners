@@ -11,8 +11,8 @@ BASE_APTLIST="build-essential \
 	postgresql-client \
 	libpq-dev \
 	sqlite3 \
-	memcached" \
-	LANG="en_US.UTF-8" LANGUAGE="en_US:en" LC_ALL="en_US.UTF-8"
+	memcached"
+#	LANG="en_US.UTF-8" LANGUAGE="en_US:en" LC_ALL="en_US.UTF-8"
 
 RUN apt-get update && \
     apt-get install $BASE_APTLIST -qy --no-install-recommends && \
