@@ -11,6 +11,7 @@ BASE_APTLIST="build-essential \
 	postgresql-client \
 	libpq-dev \
 	sqlite3 \
+        libmemcached-dev \
 	memcached"
 #	LANG="en_US.UTF-8" LANGUAGE="en_US:en" LC_ALL="en_US.UTF-8"
 
