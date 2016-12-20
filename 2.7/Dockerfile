@@ -25,4 +25,5 @@ RUN pip install --upgrade --quiet \
 		setuptools \
 		numpy \
 		scipy \
-		Pillow
+		Pillow \
+                pytest
