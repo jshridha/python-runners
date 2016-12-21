@@ -11,8 +11,9 @@ BASE_APTLIST="build-essential \
 	postgresql-client \
 	libpq-dev \
 	sqlite3 \
-        libmemcached-dev \
-	memcached"
+  libmemcached-dev \
+	memcached \
+	fftw3-dev"
 #	LANG="en_US.UTF-8" LANGUAGE="en_US:en" LC_ALL="en_US.UTF-8"
 
 RUN apt-get update && \
@@ -26,4 +27,5 @@ RUN pip install --upgrade --quiet \
 		numpy \
 		scipy \
 		Pillow \
-                pytest
+    pytest \
+		pyfftw
