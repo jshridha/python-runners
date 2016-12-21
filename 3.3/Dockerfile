@@ -29,4 +29,4 @@ RUN pip install --upgrade --quiet \
 		Pillow \
     pytest \
 		pyfftw \
-		spinx
+		sphinx
