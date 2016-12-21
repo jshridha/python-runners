@@ -28,4 +28,5 @@ RUN pip install --upgrade --quiet \
 		scipy \
 		Pillow \
     pytest \
-		pyfftw
+		pyfftw \
+		spinx
