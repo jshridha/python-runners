@@ -29,4 +29,5 @@ RUN pip install --upgrade --quiet \
 		Pillow \
     pytest \
 		pyfftw \
-		sphinx
+		sphinx \
+		Cython
